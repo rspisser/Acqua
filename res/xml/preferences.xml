@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+ 
+<!--   <PreferenceCategory  -->
+<!--         android:title="Google Maps" -->
+<!--         android:key="preference_google_maps_category"> -->
+        
+<!--         <CheckBoxPreference  -->
+<!--             android:key="preference_use_google_maps" -->
+<!--             android:summary="@string/PreferenceUseGoogleMapsSummary" -->
+<!--             android:title="@string/PreferenceUseGoogleMapsTitle"  -->
+<!--             android:defaultValue="true" -->
+<!--         /> -->
+        
+            
+<!--     </PreferenceCategory> -->
+
+    <PreferenceCategory 
+        android:title="Comune default"
+        android:key="preference_comune_default_category">
+
+        <EditTextPreference
+            android:key="preference_comune_default"
+            android:title="@string/prefsComuneDefaultTitle" 
+            android:summary="@string/PrefsComuneDefaultSummary"
+            android:dialogTitle="@string/PrefsComuneDefaultDialogTitle"
+            android:dialogMessage="@string/PrefsComuneDefaultDialogMessage"    
+            android:defaultValue="" />
+      <!--   <CheckBoxPreference
+      	android:key="preference_comune_default_usa_corrente" android:title="Usa comune corrente"></CheckBoxPreference>
+        <Preference android:title="ok" android:summary="ok" android:key="usacorrente"></Preference>
+ -->
+        <CheckBoxPreference android:key="preference_usa_google_maps" android:summary="@string/PreferenceUseGoogleMapsSummary" android:title="@string/PreferenceUseGoogleMapsTitle" android:defaultValue="true"></CheckBoxPreference>
+    </PreferenceCategory>
+    
+
+    
+</PreferenceScreen>

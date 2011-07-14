@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+
+
+    <CheckBox android:text="@string/settingsUseGoogleMaps" android:id="@+id/settingsUseGoogleMaps" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+
+    		<TextView android:text="@string/settingsScegliComuneDefault" android:id="@+id/settingsScegliComuneDefault" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    		<AutoCompleteTextView android:text="" android:id="@+id/settingsSceltaComuneDefault"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"></AutoCompleteTextView>
+    		<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+    		<Button android:text="@string/settingsButtonSalva" android:id="@+id/settingsButtonSalva" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    		<Button android:text="@string/settingsButtonAnnulla" android:id="@+id/settingsButtonAnnulla" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    		
+    		</LinearLayout>
+    	
+    
+</LinearLayout>

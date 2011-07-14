@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="AcquaDatabase_fonti">"
+1	Acetosella	Fonti Acidule Plinio	Castellammare di Stabia	Napoli	40.7165	14.49
+2	Acqua Briosa	Palombaro	Acireale	Catania	37.6077	15.1636
+3	Acqua Dei Graniti	Acqua Dei Graniti	Olbia	Olbia-Tempio	40.925	9.50361
+4	Acqua Dell'Imperatore	Fonti San Candido	San Candido/Innichen	Bolzano/Bozen	46.7339	12.2799
+5	Acqua Della Madonna	Acqua Della Madonna	Castellammare di Stabia	Napoli	40.7165	14.49
+6	Acqua Madonna Delle Grazie-sorgente	Acquaruolo	Castel San Vincenzo	Isernia	41.6566	14.0653
+7	Acqua Panna	Panna	Scarperia	Firenze	43.9929	11.3548
+8	Acqua Sacra	Acqua Sacra	Roma	Roma	41.9109	12.4818
+9	Acquarossa	Acquarossa	Belpasso	Catania	37.5957	14.9842
+10	Acquaviva Delle Fonti	Acquaviva	Acquaviva delle Fonti	Bari	40.8988	16.8433
+11	Acque Dantesche Malaspiniane	La Selva	Villafranca in Lunigiana	Massa-Carrara	44.2958	9.95
+12	Alba	Alba	Valli del Pasubio	Vicenza	45.7417	11.2627
+13	Albaviva	Albaviva	Valli del Pasubio	Vicenza	45.7417	11.2627
+14	Alexander	Alexander	Bologna	Bologna	44.5075	11.3514
+15	Alpia	Alpia	Malesco	Verbano-Cusio-Ossola	46.1273	8.5009
+16	Altea	Altea	Scheggia e Pascelupo	Perugia	43.4044	12.6676
+17	Altura	Limpas	Tempio Pausania	Olbia-Tempio	40.9042	9.10528
+18	Amata	Castello	Adelfia	Bari	41.0052	16.8725
+19	Ambria	Ambria	San Pellegrino Terme	Bergamo	45.8393	9.6656
+20	Ambrosia	Abetone E Manenti 1	Verghereto	Forli'-Cesena	43.7939	12.0049
+21	Amerino Sorgenti Di San Francesco	Sorgenti Di San Francesco	Acquasparta	Terni	42.6911	12.541
+22	Amorosa	Amorosa	Massa	Massa-Carrara	44.023	10.1151
+23	Angelica	Angelica	Nocera Umbra	Perugia	43.1125	12.7881
+24	Antica Fonte	Antica Fonte	Darfo Boario Terme	Brescia	45.8947	10.1867
+25	Antica Fonte Della Salute	Antica Fonte Della Salute	ScorzÃš	Venezia	45.5699	12.1109
+26	Antica Fonte Di Garfagnana	Fontanacci	Careggine	Lucca	44.1209	10.3264
+27	Appia	Appia	Roma	Roma	41.9109	12.4818
+28	Aurea	Aurea	Bonorva	Sassari	40.4198	8.7691
+29	Ausonia	Ausonia	Bognanco	Verbano-Cusio-Ossola	46.1273	8.2022
+30	Azzurra	Camonda	Torrebelvicino	Vicenza	45.7177	11.3205
+31	Bardinella	San Niccolo'	Bardineto	Savona	44.1914	8.1377
+32	Beber - Sorgente Doppio	Sorgente Doppio	Posina	Vicenza	45.7912	11.2612
+33	Benaglia	Benaglia	Lazise	Verona	45.5009	10.7418
+34	Bernina	Bernina	Piuro	Sondrio	46.3307	9.4217
+35	Boario	Boario	Darfo Boario Terme	Brescia	45.8947	10.1867
+36	Bracca Antica Fonte	Bracca	Bracca	Bergamo	45.8245	9.7098
+37	Calvagna	Calvagna	Cagli	Pesaro e Urbino	43.5466	12.6536
+38	Canali	Canali	Carmiano	Lecce	40.3458	18.0438
+39	Castellina	Castellina	Castelpizzuto	Isernia	41.5227	14.2932
+40	Castello	Castello	Vallio Terme	Brescia	45.6107	10.3984
+41	Cavagrande	Cavagrande	Milo	Catania	37.7243	15.1167
+42	Ceciliana	Ceciliana	Palestrina	Roma	41.8365	12.8899
+43	Cerelia	Cerelia	Vergato	Bologna	44.2836	11.1083
+44	Certalto	Certalto	Macerata Feltria	Pesaro e Urbino	43.8039	12.4412
+45	Chiarella	Chiarella	Plesio	Como	46.0495	9.2256
+46	Chiarissima	Chiarissima	Melfi	Potenza	40.9975	15.6522
+47	Claudia	Claudia	Anguillara Sabazia	Roma	42.0885	12.2776
+48	Contessa	San Donato 2	Gubbio	Perugia	43.3554	12.5734
+49	Coralba	Coralba	San Damiano Macra	Cuneo	44.4897	7.2595
+50	Coriolo	Coriolo	Paesana	Cuneo	44.6882	7.2745
+51	Cottorella	Cottorella	Rieti	Rieti	42.4082	12.8601
+52	Courmayeur Fonte Youla	Fonte Youla	Courmayeur	Valle d'Aosta/VallÃ©e d'Aoste	45.7948	6.9725
+53	Cutolo Rionero-fonte Bleus	Pozzo Bleus	Rionero in Vulture	Potenza	40.9267	15.6708
+54	Daggio	Daggio	Primaluna	Lecco	45.9847	9.4387
+55	Damore	Le Grazie	Serravalle Pistoiese	Pistoia	43.907	10.8337
+56	Diamante	Diamante	Codrongianos	Sassari	40.6583	8.6808
+57	Dolomia	Valcimoliana	Cimolais	Pordenone	46.289	12.4386
+58	Dolomiti	Dolomiti	Valli del Pasubio	Vicenza	45.7417	11.2627
+59	Don Carlo	Don Carlo	Contursi Terme	Salerno	40.6505	15.2402
+60	Ducale	Senato	Tornolo	Parma	44.4862	9.6263
+61	Egeria	Egeria	Roma	Roma	41.9109	12.4818
+62	Entraque	Recistel	Entracque	Cuneo	44.2424	7.4004
+63	Eva	Fontanone	Paesana	Cuneo	44.6882	7.2745
+64	Eva Rocce Azzurre	Rocce Azzurre	Paesana	Cuneo	44.6882	7.2745
+65	Fabia  Antiche Sorgenti	Fabia	Acquasparta	Terni	42.6911	12.541
+66	Fabrizia	Passo Abate - Serricella	Fabrizia	Vibo Valentia	38.4881	16.3018
+67	Fara San Martino	Fara San Martino	Fara San Martino	Chieti	42.091	14.2062
+68	Fausta	Fausta	Darfo Boario Terme	Brescia	45.8947	10.1867
+69	Federica Della Fonte S.giacomo	Federica Della Fonte S.giacomo	Villasor	Cagliari	39.3815	8.9438
+70	Felicia	Felicia	Rionero in Vulture	Potenza	40.9267	15.6708
+71	Ferrarelle	Ferrarelle	Riardo	Caserta	41.2637	14.1528
+72	Filette	Filette	Guarcino	Frosinone	41.8	13.3143
+73	Fiuggi	Fiuggi	Fiuggi	Frosinone	41.7996	13.2212
+74	Flaminia	Flaminia	Nocera Umbra	Perugia	43.1125	12.7881
+75	Flavia	Flavia	Zogno	Bergamo	45.7928	9.6572
+76	Fontalba	Fontalba	Montalbano Elicona	Messina	38.0257	15.0135
+77	Fonte Abrau	Fonte Abrau	Chiusa di Pesio	Cuneo	44.3274	7.6765
+78	Fonte Allegra	Allegra	SalÃ²	Brescia	45.6095	10.532
+79	Fonte Annia	Fonte Annia	Pocenia	Udine	45.8364	13.1018
+80	Fonte Argentiera	Frigurin	Sassello	Savona	44.4823	8.4958
+81	Fonte Aura	Fonte Aura	Acquasparta	Terni	42.6911	12.541
+82	Fonte Azzurrina	Betulla	Careggine	Lucca	44.1209	10.3264
+83	Fonte Caudana	Fonte Caudana	Donato	Biella	45.5272	7.9107
+84	Fonte Corte Paradiso	Corte Paradiso	Pocenia	Udine	45.8364	13.1018
+85	Fonte De' Medici	Vescina	Monte San Savino	Arezzo	43.3302	11.7307
+86	Fonte Dei Pini	Fonte Dei Pini	Roccaforte MondovÃ¬	Cuneo	44.3189	7.7458
+87	Fonte Del Galletto	Fonte Del Galletto	Rovegno	Genova	44.5777	9.2802
+88	Fonte Del Lupo	Fonte Del Lupo	Altare	Savona	44.3362	8.344
+89	Fonte Del Principe	Fonte Del Principe	Mongiana	Vibo Valentia	38.5139	16.3203
+90	Fonte Delicata	Fonte Delicata	ScorzÃš	Venezia	45.5699	12.1109
+91	Fonte Della Madonnina Della Calabria	Fonte Della Madonnina	Girifalco	Catanzaro	38.8253	16.4249
+92	Fonte Della Viirtu'	Virtu'	Pontremoli	Massa-Carrara	44.3761	9.8799
+93	Fonte Delle Alpi	Seccarezze	Bagnolo Piemonte	Cuneo	44.7613	7.315
+94	Fonte Delle Rocce	Fonte Delle Rocce	Capranica	Viterbo	42.2597	12.173
+95	Fonte Di Palme	Fonte Di Palme	Fermo	Fermo	43.1636	13.7139
+96	Fonte Eleonora	Tamara 3	Macomer	Nuoro	40.263	8.7709
+97	Fonte Elisa	Fonte Elisa	Genga	Ancona	43.4306	12.9359
+98	Fonte Gabinia	Gabinia	Gavignano	Roma	41.7001	13.0527
+99	Fonte Geu	Fonte Geu	Forni Avoltri	Udine	46.5877	12.7779
+100	Fonte Gral	Fontana Fredda	Graglia	Biella	45.5595	7.9791
+101	Fonte Ilaria	Fonte Ilaria	Lucca	Lucca	43.861	10.4949
+102	Fonte Itala	Fonte Itala	Atella	Potenza	40.8813	15.651
+103	Fonte Linda	Fonte Linda	SalÃ²	Brescia	45.6095	10.532
+104	Fonte Lonera	Lonera	Valli del Pasubio	Vicenza	45.7417	11.2627
+105	Fonte Maddalena	Fonte Maddalena	Ardea	Roma	41.6097	12.5203
+106	Fonte Margherita	Margherita	Torrebelvicino	Vicenza	45.7177	11.3205
+107	Fonte Meo	Meo	Gavignano	Roma	41.7001	13.0527
+108	Fonte Napoleone	Fonte Napoleone	Marciana	Livorno	42.7904	10.1696
+109	Fonte Nuova San Carlo Spinone	Fonte Nuova	Spinone al Lago	Bergamo	45.7684	9.9252
+110	Fonte Ofelia	Fonte Ofelia	Contursi Terme	Salerno	40.6505	15.2402
+111	Fonte Pocenia	Fonte Pocenia	Pocenia	Udine	45.8364	13.1018
+112	Fonte Primavera	Fonte Primavera	Popoli	Pescara	42.1709	13.8317
+113	Fontealta	Romani 1	Roncegno Terme	Trento	46.0507	11.4093
+114	Fontechiara	Fontechiara	Medesano	Parma	44.7585	10.1408
+115	Fontelaura	Fontelaura	Plesio	Como	46.0495	9.2256
+116	Fontenoce	Noce	Parenti	Cosenza	39.1632	16.4113
+117	Fontesana	Fontesana	Rimini	Rimini	44.0693	12.5566
+118	Fonteviva	Fonteviva	Massa	Massa-Carrara	44.023	10.1151
+119	Fonti Bauda	Bauda	Calizzano	Savona	44.2355	8.1212
+120	Fonti Di Crodo-sorg. Cesa	Cesa	Crodo	Verbano-Cusio-Ossola	46.2117	8.3217
+121	Fonti Di Crodo-valle D'Oro	Valle D'Oro	Crodo	Verbano-Cusio-Ossola	46.2117	8.3217
+122	Frasassi	Frasassi	Genga	Ancona	43.4306	12.9359
+123	Frisia	Frisia	Piuro	Sondrio	46.3307	9.4217
+124	Fucoli	Fucoli	Chianciano Terme	Siena	43.0449	11.8134
+125	Funte Fria	Funte Fria	Macomer	Nuoro	40.263	8.7709
+126	Futurella	Futurella	Sant'Arsenio	Salerno	40.4739	15.4854
+127	Gaia	Gaia	Genga	Ancona	43.4306	12.9359
+128	Gallo	Gallo	Montefortino	Fermo	42.9433	13.3428
+129	Galvanina	Galvanina	Rimini	Rimini	44.0693	12.5566
+130	Gaudenziana	Gaudenziana	Bognanco	Verbano-Cusio-Ossola	46.1273	8.2022
+131	Gaudianello	Gaudianello	Rionero in Vulture	Potenza	40.9267	15.6708
+132	Gaverina	Gaverina 3	Gaverina Terme	Bergamo	45.7567	9.8877
+133	Geraci	Geraci	Geraci Siculo	Palermo	37.8608	14.1544
+134	Gerasia	Reale	AlÃ¬	Messina	38.0284	15.4185
+135	Gianlorenzo	Gianlorenzo	Taurianova	Reggio di Calabria	38.3573	16.0117
+136	Giara	Giara	Villasor	Cagliari	39.3815	8.9438
+137	Giardinella	Giardinella	Fasano	Brindisi	40.8354	17.3592
+138	Gioiosa Della Valsesia	Gioiosa Della Valsesia	Quarona	Vercelli	45.7588	8.2668
+139	Goccia Di Carnia Sorgente Di Fleons	Fonte Di Fleons	Forni Avoltri	Udine	46.5877	12.7779
+140	Grazia sorgenti Di Acquasparta	Fabiaviva	Acquasparta	Terni	42.6911	12.541
+141	Grigna	Grigna	Pasturo	Lecco	45.9526	9.4452
+142	Grotto	Grotto	Taceno	Lecco	46.0254	9.365
+143	Guizza	Guizza	ScorzÃš	Venezia	45.5699	12.1109
+144	Hidria	Petraro	Belpasso	Catania	37.5957	14.9842
+145	Ielo	Ielo	Pratella	Caserta	41.4056	14.1786
+146	Igea	Igea	Darfo Boario Terme	Brescia	45.8947	10.1867
+147	In Bosco	In Bosco	San Giorgio in Bosco	Padova	45.5906	11.8074
+148	Isola Antica	Isola Antica	Macomer	Nuoro	40.263	8.7709
+149	La Francesca	La Francesca	Rionero in Vulture	Potenza	40.9267	15.6708
+150	Lauretana	Caruzza	Graglia	Biella	45.5595	7.9791
+151	Lavaredo	Fonti San Candido	San Candido/Innichen	Bolzano/Bozen	46.7339	12.2799
+152	Lentula	Lentula	Cantagallo	Prato	44.0293	11.1085
+153	Leo	Fonte Leo	Carlopoli	Catanzaro	39.0577	16.4557
+154	Leonardo	Leonardo	Primaluna	Lecco	45.9847	9.4387
+155	Lete	Lete	Pratella	Caserta	41.4056	14.1786
+156	Levia	Levia	Siliqua	Cagliari	39.3013	8.8097
+157	Levico Casara	Levico Casara	Levico Terme	Trento	46.0138	11.3082
+158	Levissima	Levissima	Valdisotto	Sondrio	46.4353	10.358
+159	Lieta	Lieta	Busana	Reggio nell'Emilia	44.3698	10.3244
+160	Lilia	Lilia	Rionero in Vulture	Potenza	40.9267	15.6708
+161	Limpia	Limpia	San Pellegrino Terme	Bergamo	45.8393	9.6656
+162	Limpida	Aranceto	Feroleto Antico	Catanzaro	38.9634	16.3886
+163	Lisiel	Lisiel	Crodo	Verbano-Cusio-Ossola	46.2117	8.3217
+164	Luna	Luna	Primaluna	Lecco	45.9847	9.4387
+165	Lynx	Fonti Di San Fermo	Bedonia	Parma	44.499	9.6338
+166	Mangiatorella	Mangiatorella	Stilo	Reggio di Calabria	38.4781	16.4692
+167	Maniva	Maniva	Bagolino	Brescia	45.8261	10.4605
+168	Marzia	Marzia	Chianciano Terme	Siena	43.0449	11.8134
+169	Maxim's	Maxim's	Stia	Arezzo	43.8039	11.7094
+170	Milicia	Fonte Pastuchera	Altavilla Milicia	Palermo	38.0389	13.5492
+171	Minieri	Santo Stefano Lanterria	Telese Terme	Benevento	41.2183	14.5286
+172	Misia	Misia	Cerreto di Spoleto	Perugia	42.8228	12.9202
+173	Molisia	Molisia	Sant'Elena Sannita	Isernia	41.5777	14.4738
+174	Monte Bianco - Fonte Mont Blanc	Mont Blanc	Courmayeur	Valle d'Aosta/VallÃ©e d'Aoste	45.7948	6.9725
+175	Monte Cimone	Monte Cimone	Fanano	Modena	44.2124	10.7974
+176	Monte Rosa	Monte Rosa	Graglia	Biella	45.5595	7.9791
+177	Montechiaro	Montechiaro	Conversano	Bari	40.9672	17.1156
+178	Monteferrante	San Giovanni	Monteferrante	Chieti	41.9557	14.3893
+179	Monteforte	Monteforte	Montese	Modena	44.2729	10.945
+180	Monteverde	Pozzo P6	Pistoia	Pistoia	43.9222	10.9246
+181	Montoso	Martina	Bagnolo Piemonte	Cuneo	44.7613	7.315
+182	Monviso	Fucine	Luserna San Giovanni	Torino	44.8164	7.2524
+183	Motette	Motette	Scheggia e Pascelupo	Perugia	43.4044	12.6676
+184	Mugniva	Mugniva	Luserna San Giovanni	Torino	44.8164	7.2524
+185	Murgianella	Murgianella	Gravina in Puglia	Bari	40.8207	16.4236
+186	Musa	Reale	Tornolo	Parma	44.4862	9.6263
+187	Natia	Natia	Riardo	Caserta	41.2637	14.1528
+188	Nepi	Nepi	Viterbo	Viterbo	42.4188	12.1095
+189	Nerea	Fonte Degli Uccelli	Castel Sant'Angelo	Rieti	42.3947	13.0283
+190	Neve	Neve	Cadorago	Como	45.7282	9.0389
+191	Ninfa	Ninfa	Rionero in Vulture	Potenza	40.9267	15.6708
+192	Niva	Niva	Balme	Torino	45.3038	7.2169
+193	Nuova Acquachiara	Cortiane	Valli del Pasubio	Vicenza	45.7417	11.2627
+194	Nuova Augusta	Fornace	Castelletto d'Orba	Alessandria	44.6855	8.705
+195	Nuova Fonte	Nuova Fonte	Zogno	Bergamo	45.7928	9.6572
+196	Nuova Santa Vittoria	Fontana Fredda	Montegrosso Pian Latte	Imperia	44.0677	7.8181
+197	Orianna	Sorgenti Carignano	Fano	Pesaro e Urbino	43.8213	13.013
+198	Orobica	Orobica	Villa d'AlmÃš	Bergamo	45.7506	9.6155
+199	Orsinella	Orsinella	Poggiorsini	Bari	40.9181	16.2556
+200	Ottavia	Lagnetta	Crognaleto	Teramo	42.5487	13.4788
+201	Ottavio Rovere	San Bernardo	Garessio	Cuneo	44.2039	8.0203
+202	Palmense Del Piceno	Palmense Del Piceno	Fermo	Fermo	43.1636	13.7139
+203	Paraviso	Paraviso	Lanzo d'Intelvi	Como	45.9848	9.0271
+204	Paravita	Sorgente Della Coltura	Parabita	Lecce	40.0529	18.1303
+205	Pasubio	Pasubio	Valli del Pasubio	Vicenza	45.7417	11.2627
+206	Pejo Fonte Alpina	Fonte Alpina	Peio	Trento	46.354	10.6931
+207	Perla	Perla	Monte San Savino	Arezzo	43.3302	11.7307
+208	Pian Della Mussa	Fonte Sauze'	Balme	Torino	45.3038	7.2169
+209	Pineta Sorgente Sales	Sales	Clusone	Bergamo	45.888	9.9507
+210	Pioda	Pioda	Moio de' Calvi	Bergamo	45.9527	9.7018
+211	Plose	Plose	Bressanone/Brixen	Bolzano/Bozen	46.7098	11.6574
+212	Pradis	Pradis	Clauzetto	Pordenone	46.2306	12.9171
+213	Prata	Prata	Pratella	Caserta	41.4056	14.1786
+214	Prealpi	Prealpi	Villa d'AlmÃš	Bergamo	45.7506	9.6155
+215	Preistorica	Preistorica	Amandola	Fermo	42.9811	13.36
+216	Presolana	Presolana	Clusone	Bergamo	45.888	9.9507
+217	Primavera Delle Alpi	Primavera	Donato	Biella	45.5272	7.9107
+218	Primula	Primula	Spinone al Lago	Bergamo	45.7684	9.9252
+219	Pura	Pura	Siliqua	Cagliari	39.3013	8.8097
+220	Quercetta	Quercetta	Siliqua	Cagliari	39.3013	8.8097
+221	Radiosa	Radiosa	Casteldelci	Rimini	43.7928	12.1567
+222	Reale Di Tornolo	Torletto	Tornolo	Parma	44.4862	9.6263
+223	Recoaro	Lora	Recoaro Terme	Vicenza	45.7051	11.2255
+224	Regilla	Regilla	Rocca Priora	Roma	41.7796	12.7491
+225	Regina	Regina	Montecatini-Terme	Pistoia	43.8845	10.7746
+226	Regina Staro	Fonte Regina Staro	Valli del Pasubio	Vicenza	45.7417	11.2627
+227	Roana	Panico	Ussita	Macerata	42.9447	13.1371
+228	Rocca Bianca	Rocca Bianca	Novara di Sicilia	Messina	38.017	15.1327
+229	Roccaforte	Roccaforte	Roccaforte MondovÃ¬	Cuneo	44.3189	7.7458
+230	Rocchetta	Rocchetta	Gualdo Tadino	Perugia	43.2326	12.7819
+231	Rugiada	Rugiada	Gubbio	Perugia	43.3554	12.5734
+232	Ruscella	Ruscella	Modica	Ragusa	36.847	14.7748
+233	S. Alberico	S. Alberico	Verghereto	Forli'-Cesena	43.7939	12.0049
+234	S. Apollonia	S. Apollonia	Ponte di Legno	Brescia	46.2595	10.5097
+235	San Antonio	Sant'Antonio	Cadorago	Como	45.7282	9.0389
+236	San Benedetto	San Benedetto	ScorzÃš	Venezia	45.5699	12.1109
+237	San Bernardo Rocciaviva	Rocciaviva	Garessio	Cuneo	44.2039	8.0203
+238	San Carlo Fonte Aurelia	Fonte Aurelia	Massa	Massa-Carrara	44.023	10.1151
+239	San Cassiano	San Cassiano	Fabriano	Ancona	43.3416	12.9082
+240	San Faustino	S Faustino	Massa Martana	Perugia	42.7741	12.5259
+241	San Felice	San Felice	Pistoia	Pistoia	43.9222	10.9246
+242	San Francesco Di Caslino Al Piano	San Francesco	Cadorago	Como	45.7282	9.0389
+243	San Giacomo	San Giacomo	Sarnano	Macerata	43.0357	13.2991
+244	San Giacomo Di Roburent	San Giacomo Di Roburent	Roburent	Cuneo	44.3073	7.8933
+245	San Giorgio	Mitza Migheli	Siliqua	Cagliari	39.3013	8.8097
+246	San Giovanni  Fonte Del Pollino	Mercure	Viggianello	Potenza	39.9748	16.0869
+247	San Giuliano	San Giuliano	Rimini	Rimini	44.0693	12.5566
+248	San Giuseppe	San Giuseppe	Aprilia	Latina	41.5905	12.651
+249	San Lorenzo	San Lorenzo	Bognanco	Verbano-Cusio-Ossola	46.1273	8.2022
+250	San Luca	San Luca	Guarcino	Frosinone	41.8	13.3143
+251	San Luigi	San Luigi	Barni	Como	45.9122	9.2662
+252	San Marco	San Marco	Minturno	Latina	41.2586	13.7246
+253	San Martino	San Martino	Codrongianos	Sassari	40.6583	8.6808
+254	San Pantaleo	San Pantaleo	Olbia	Olbia-Tempio	40.925	9.50361
+255	San Pellegrino	San Pellegrino	San Pellegrino Terme	Bergamo	45.8393	9.6656
+256	San Pietro	San Pietro	Marino	Roma	41.7634	12.6453
+257	San Rocco	Riofreddo	Castelletto d'Orba	Alessandria	44.6855	8.705
+258	San Silvestro	San Silvestro	Angolo Terme	Brescia	45.8923	10.1488
+259	San Vigilio	San Vigilio	Merano/Meran	Bolzano/Bozen	46.669	11.1623
+260	San Vincenzo	San Vincenzo	Aprilia	Latina	41.5905	12.651
+261	San Vito Di Canistro	San Vito	Canistro	L'Aquila	41.9417	13.4134
+262	San Zaccaria Terme	San Zaccaria	Brennero/Brenner	Bolzano/Bozen	46.939	11.4435
+263	Sangemini	Sangemini	San Gemini	Terni	42.61	12.544
+264	Sant'Andrea	Sant'Andrea	Medesano	Parma	44.7585	10.1408
+265	Sant'Andrea Fonte Lidia	Sant'Andrea Fonte Lidia	Medesano	Parma	44.7585	10.1408
+266	Sant'Angelo	Sant'angelo	Siliqua	Cagliari	39.3013	8.8097
+267	Sant'Anna Di Vinadio	Sant'Anna Di Vinadio	Vinadio	Cuneo	44.31	7.1771
+268	Sant'Anna-sorgente Rebruant	Rebruant	Vinadio	Cuneo	44.31	7.1771
+269	Sant'Antonio Sponga	Sant'Antonio Sponga	Canistro	L'Aquila	41.9417	13.4134
+270	Sant'Elena	Sant'Elena	Chianciano Terme	Siena	43.0449	11.8134
+271	Santhe'	Santhe'	Mombaroccio	Pesaro e Urbino	43.796	12.8557
+272	Santa	Santa	Chianciano Terme	Siena	43.0449	11.8134
+273	Santa Barbara Di Lurisia	Santa Barbara	Roccaforte MondovÃ¬	Cuneo	44.3189	7.7458
+274	Santa Chiara	Santa Chiara	Scheggia e Pascelupo	Perugia	43.4044	12.6676
+275	Santa Clara	Santa Clara	Borzonasca	Genova	44.4232	9.3876
+276	Santa Croce	Santa Croce	Canistro	L'Aquila	41.9417	13.4134
+277	Santa Fiora	Santa Fiora	Monte San Savino	Arezzo	43.3302	11.7307
+278	Santa Lucia	Santa Lucia	Bonorva	Sassari	40.4198	8.7691
+279	Santa Maria	Santa Maria	Modica	Ragusa	36.847	14.7748
+280	Santa Maria Capannelle	Santa Maria Capannelle	Roma	Roma	41.9109	12.4818
+281	Santa Maria Degli Angeli	Santa Maria Degli Angeli	Atella	Potenza	40.8813	15.651
+282	Santa Rita	Santa Rita	Ne	Genova	44.3485	9.3901
+283	Santa Rosalia	Margimuto 2	Santo Stefano Quisquina	Agrigento	37.6266	13.4921
+284	Santagata	Santagata	Rocchetta e Croce	Caserta	41.2375	14.1581
+285	Santo Stefano	Santo Stefano	Montesano sulla Marcellana	Salerno	40.277	15.7055
+286	Tesoro	Tesoro	Acquapendente	Viterbo	42.7448	11.8651
+287	Tettuccio	Tettuccio	Montecatini-Terme	Pistoia	43.8845	10.7746
+288	Tinnea	Tinnea	Montefortino	Fermo	42.9433	13.3428
+289	Tione	Tione	Orvieto	Terni	42.7205	12.1125
+290	Toka	Toka	Rionero in Vulture	Potenza	40.9267	15.6708
+291	Tolentino Santa Lucia	Tolentino Santa Lucia	Tolentino	Macerata	43.2135	13.291
+292	Torsa	Torsa	Pocenia	Udine	45.8364	13.1018
+293	Tre Santi	Tre Santi	Sarnano	Macerata	43.0357	13.2991
+294	Tullia	Tullia	Sellano	Perugia	42.8897	12.928
+295	Uliveto	Uliveto	Vicopisano	Pisa	43.6882	10.5821
+296	Ulmeta	Ulmeta	Ormea	Cuneo	44.1567	7.9255
+297	Vaia	Mignano	Bagolino	Brescia	45.8261	10.4605
+298	Val Di Meti	Val Di Meti	Apecchio	Pesaro e Urbino	43.5595	12.4219
+299	Val Fredda	Val Fredda	Mezzocorona	Trento	46.2143	11.1197
+300	Val Madre	Val Madre	Fusine	Sondrio	46.1504	9.7508
+301	Valle Reale	Valle Reale	Popoli	Pescara	42.1709	13.8317
+302	Vallechiara	Vallechiara	Altare	Savona	44.3362	8.344
+303	Valmora	Aburu	RorÃ 	Torino	44.7931	7.2001
+304	Valpesio	Fontana Carle	Chiusa di Pesio	Cuneo	44.3274	7.6765
+305	Valverde	Valverde	Quarona	Vercelli	45.7588	8.2668
+306	Varanina	Varanina	Medesano	Parma	44.7585	10.1408
+307	Varda	Varda	Stignano	Reggio di Calabria	38.4171	16.4711
+308	Vela	Vela	Bedonia	Parma	44.499	9.6338
+309	Ventasso	Monte Pizzarotta- Fonte S.lucia	Busana	Reggio nell'Emilia	44.3698	10.3244
+310	Verdiana	Verdiana	Medesano	Parma	44.7585	10.1408
+311	Verna	Verna	Chiusi della Verna	Arezzo	43.6984	11.936
+312	Vigezzo	Vigezzo	Malesco	Verbano-Cusio-Ossola	46.1273	8.5009
+313	Visciolo	Visciolo	Rionero in Vulture	Potenza	40.9267	15.6708
+314	Vitas	Vitas	Darfo Boario Terme	Brescia	45.8947	10.1867
+315	Vitasana	Santa Chiara	Feroleto Antico	Catanzaro	38.9634	16.3886
+316	Viva	Misia Bis	Cerreto di Spoleto	Perugia	42.8228	12.9202
+317	Vivia	Vivia	Nepi	Viterbo	42.2438	12.3465
+318	Vivien	Vivien	Rionero in Vulture	Potenza	40.9267	15.6708
+319	Norda	Norda	Primaluna	Lecco	45.9847	9.4387
+320	Balda	Balda	Bagolino	Brescia	45.8261	10.4605
+321	Acquachiara	Cortiane	Valli del Pasubio	Vicenza	45.7417	11.2627
+322	Certosa Fonte Camarda	Certosa Fonte Camarda	Polia	Vibo Valentia	38.7522	16.313
+323	Certosa Fonte Perna	Certosa Fonte Perna	Polia	Vibo Valentia	38.7522	16.313
+324	Cintoia	Cintoia	Greve in Chianti	Firenze	43.5875	11.3173
+325	Eureka	Madonnina	Corigliano d'Otranto	Lecce	40.1606	18.2602
+326	Futura	Dipodi	Pianopoli	Catanzaro	38.9552	16.3892
+327	Giada	Giada	Salerno	Salerno	40.6642	14.8046
+328	Madonna della Mercede	Madonna della Mercede	Medesano	Parma	44.7585	10.1408
+329	Panna	Panna	Scarperia	Firenze	43.9929	11.3548
+330	Pozzillo	Pozzillo	Acireale	Catania	37.6077	15.1636
+331	Appua Fonte Tiberia Fonte Aurelia	Fonte Aurelia	Massa	Massa-Carrara	44.023	10.1151
+332	San Ciro	La Ferrina	Ercolano	Napoli	40.8073	14.3618
+333	San Marino	San Marino	Sassofeltrio	Pesaro e Urbino	43.8933	12.5115
+334	San Matteo-Fonte della Salute	San Matteo-Fonte della Salute	Premilcuore	Forli'-Cesena	43.9828	11.7846
+335	San Pancrazio Trescore	San Pancrazio	Trescore Balneario	Bergamo	45.6974	9.8436
+336	San Paolo	San Paolo	Roma	Roma	41.9109	12.4818
+337	Sandalia	S'Acqua Cotta	Villasor	Cagliari	39.3815	8.9438
+338	Sant' Anna di Vinadio	Sant' Anna di Vinadio	Vinadio	Cuneo	44.31	7.1771
+339	Sant' Elena	Sant' Elena	Chianciano Terme	Siena	43.0449	11.8134
+340	Santo Stefano in Campo	Santo Stefano in Campo	Aprilia	Latina	41.5905	12.651
+341	Sassovivo	Sassovivo	Foligno	Perugia	42.945	12.702
+342	Siete Fuentes	Siete Fuentes	Santu Lussurgiu	Oristano	40.1422	8.6555
+343	Silvana	Silvana	Galeata	Forli'-Cesena	43.9989	11.9142
+344	Smeraldina	Smeraldina	Tempio Pausania	Olbia-Tempio	40.9042	9.10528
+345	Sole	Sole	Nuvolento	Brescia	45.5467	10.3878
+346	Sorgente Lissa	Lissa	Posina	Vicenza	45.7912	11.2612
+347	Sovrana	Sovrana	Castelletto d'Orba	Alessandria	44.6855	8.705
+348	Sparea	Sparea	Luserna San Giovanni	Torino	44.8164	7.2524
+349	Stella Alpina	Stella Alpina	Moio de' Calvi	Bergamo	45.9527	9.7018
+350	Surgiva	Surgiva	Carisolo	Trento	46.1697	10.7599
+351	Syrma	Boiola	Sirmione	Brescia	45.4695	10.6062
+352	Tavina	Fonte Tavina	SalÃ²	Brescia	45.6095	10.532
+353	Telese	Buvette	Telese Terme	Benevento	41.2183	14.5286
+354	Vera	Vera	San Giorgio in Bosco	Padova	45.5906	11.8074
+355	Vis - Sorgente del Ciliegio	Sorgente del Ciliegio	Carpineti	Reggio nell'Emilia	44.4569	10.5207
+356	Vitologatti	Vitologatti	Salerno	Salerno	40.6642	14.8046
+357	Sepina	Sorgente Tre Fontane	Sepino	Campobasso	41.409	14.6192
+358	Blues	Fonte Nuova	Spinone al Lago	Bergamo	45.7684	9.9252
+359	Saguaro	Fonte Linda	SalÃ²	Brescia	45.6095	10.532
+360	Alta Valle Del Trebbia 	Alta Valle	Rovegno	Genova	44.5777	9.2802
+"</string>
+    
+</resources>

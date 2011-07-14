@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="vertical" 
+android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout 
+android:id="@+id/listafonti" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="TextView" android:id="@+id/nomefonte" android:layout_width="150dip" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="TextView" android:id="@+id/distanzafonte" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+<LinearLayout android:visibility="gone" 
+android:id="@+id/vista_dettaglio" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+         <TableLayout android:id="@+id/tablayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+         <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Nome" android:id="@+id/tv1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/vistadettaglionomefonte" android:layout_width="100dip" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="Distanza:" android:id="@+id/tv2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/vistadettagliodistanzafonte" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        
+            </TableRow>
+         <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Comune: " android:id="@+id/tv4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/vistadettagliocomunefonte" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/vistadettaglioprovinciafonte" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+         <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Lat:" android:id="@+id/tv6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/vistadettagliolatitudine" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="Long:" android:id="@+id/tv7" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/vistadettagliolongitudine" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+            
+            
+        </TableLayout>
+ 
+</LinearLayout> 
+</LinearLayout>

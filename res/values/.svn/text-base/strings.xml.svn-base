@@ -61,11 +61,7 @@
 	<string name="ElencoFontiNoLocationManagerOk">Ok</string>
 	<string name="ElencoFontiNoLocationManagerAnnulla">Annulla</string>
 	<string name="ChangeLog">
-"\n\nChangelog
-\nVersione 1.2.2:
-- nuova icona
-- fix minori
-\nVersione 1.2.1:
+"\n\nChangelog\nVersione 1.2.1:
 - fix bug minori
 - aggiunta nuove acque minerali (adesso sono 360)
 \nVersione 1.2:
@@ -78,6 +74,5 @@
 	" 
 	</string>
 	<string name="cl2">"""<b><font color="#ff00ff"> HTML View</font></b><br/>Android.com
-	"""</string> 
-	<string name="inserisciNomeComune">Inserisci nome comune</string>	
+	"""</string>	
 </resources>

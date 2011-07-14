@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="LayoutNomeComune">Comune:</string>
-    <string name="LayoutProvinciaComune">Provincia:</string>
-    <string name="LayoutRegioneComune">Regione:</string>
+    <string name="LayoutNomeComune">Gemeinde:</string>
+    <string name="LayoutProvinciaComune">Provinz:</string>
+    <string name="LayoutRegioneComune">REgion:</string>
     <string name="app_name">Acqua</string>
-    <string name="cercaButton">cerca</string>
+    <string name="cercaButton">suchen</string>
     <string name="InfoTitle">Acqua %1$s</string>
-    <string name="chiudiInfoButton">Chiudi</string>
+    <string name="chiudiInfoButton">Schliessen</string>
     <string name="informazioni">""" Acqua \nQuesto programma permette di ricercare le acque minerali.
 \nL'elenco dei 8093 comuni sono i comuni Istat del 30 giugno 2010, integrato con le coordinate.
 \nL'elenco delle acque minerali è tratto dall'"Elenco delle acque minerali riconosciute dagli stati membri" pubblicato sulla Gazzetta Ufficiale dell'Unione Europea, integrato con le coordinate.
-\nInoltre sono state aggiunte quelle contribuite dagli utenti, attualmente sono 360.
 \nL'icona è presa da http://www.openclipart.org
 \nSe hai qualche suggerimento oppure fonte da aggiungere/modificare/eliminare, puoi contattarmi all'indirizzo e-mail reinhard@spisser.it
 \nCredits:
-\nAntonio Bellinghieri, Marco Puppin, Stefano Strada, Alessandro Torcoli, Daniele Unfer. 
+\nMarco Puppin, Stefano Strada, Alessandro Torcoli, Daniele Unfer. 
 \n(c) 2011 Reinhard Spisser (reinhard@spisser.it)    
 """</string>
-    <string name="menuInfo">Informazioni</string>
-    <string name="menuSettings">Impostazioni</string>
-    <string name="menuContact">Contatta</string>
-    <string name="menuSceltaFonte">Scegli Acqua Minerale</string>
+    <string name="menuInfo">Informationen</string>
+    <string name="menuSettings">Einstellungen</string>
+    <string name="menuContact">Kontakt</string>
+    <string name="menuSceltaFonte">Scegli Fonte</string>
     <string name="menuSchermataPrincipale">Schermata principale</string>
-    <string name="menuElencoFonti">Elenco Acque Minerali</string>
+    <string name="menuElencoFonti">Liste Mineralwasser</string>
     <string name="menuMappa">Mappa</string>
     <string name="menuAltro">Altro</string>
     <string name="menuSalvaAttuale">Paese attuale come default</string>
     <string name="settingsUseGoogleMaps">Usa Google Maps</string>
     <string name="settingsScegliComuneDefault">Scegli Comune di default</string>
-    <string name="settingsButtonSalva">Salva</string>
+    <string name="settingsButtonSalva">Speichern</string>
     <string name="settingsButtonAnnulla">Annulla</string>
     <string name="PrefsComuneDefaultSummary">Indica il comune di default</string>
     <string name="PreferenceUseGoogleMapsSummary">
@@ -38,22 +37,22 @@
     <string name="PrefsComuneDefaultDialogMessage">scrivi il nome del comune che di default deve apparire nella casella di testo</string>
 	<string name="prefsComuneDefaultTitle">Comune default</string>
 	
-	<string name="SceltaFonteScegliFonte">Scegli acqua minerale</string>
+	<string name="SceltaFonteScegliFonte">Liste</string>
 	<string name="SceltaFonteScegliComune">Scegli Comune</string>
-	<string name="SceltaFonteCalcolaDistanza">Calcola Distanza</string>
-	<string name="SceltaFonteLabel">Scegli acqua minerale</string>
+	<string name="SceltaFonteCalcolaDistanza">Entfernung berechnen</string>
+	<string name="SceltaFonteLabel">Scegli Fonte</string>
 	<string name="SceltaFontiRilevaPosizioneButton">Rileva posizone</string>
 	<string name="SceltaFonteVisualizzaMappaButton">Mappa</string>
 	<string name="MappaActivityLabel">Acqua: Visualizza Mappa</string>
-	<string name="SuggerisciFonte">Suggerisci acqua minerale</string>
-	<string name="menuSuggerisciFonte">Suggerisci acqua minerale</string>
-	<string name="SuggerisciFonteButtonText">Invia</string>
-	<string name="SuggerisciFonteInserisciFonte">Scrivi il nome della acqua minerale</string>
-	<string name="SuggerisciEmailContentString">Nome Comune: %1$s\nLatitudine: %2$s\n Longitudine: %3$s\nNome acqua minerale proposto: %4$s</string>
-	<string name="SuggerisciEmailSubject">[acqua] Suggerimento nuova acqua minerale</string>
+	<string name="SuggerisciFonte">Suggerisci Fonte</string>
+	<string name="menuSuggerisciFonte">Suggerisci Fonte</string>
+	<string name="SuggerisciFonteButtonText">Senden</string>
+	<string name="SuggerisciFonteInserisciFonte">Scrivi il nome della fonte</string>
+	<string name="SuggerisciEmailContentString">Nome Comune: %1$s\nLatitudine: %2$s\n Longitudine: %3$s\nNome Fonte proposto: %4$s</string>
+	<string name="SuggerisciEmailSubject">Suggerimento nuova fonte</string>
 	<string name="SceltaFonteScegliComuneOppure">oppure</string>
-	<string name="SuggerisciEmailAlertTitle">[acqua] Suggerisci acqua minerale</string>
-	<string name="SuggerisciEmailAlertMessage">Alcuni dati non sono selezionati</string>
+	<string name="SuggerisciEmailAlertTitle">[acqua] Suggerisci fonte</string>
+	<string name="SuggerisciEmailAlertMessage">Alcuni dati non selezionati</string>
 	<string name="SuggerisciEmailOkButton">ok</string>
 	<string name="ElencoFontiStoAspettandoWifiText">Sto aspettando i primi dati dal Wifi o GPS</string>
 	<string name="ElencoFontiNoLocationManagerTitle">LocationManager</string>
@@ -61,14 +60,7 @@
 	<string name="ElencoFontiNoLocationManagerOk">Ok</string>
 	<string name="ElencoFontiNoLocationManagerAnnulla">Annulla</string>
 	<string name="ChangeLog">
-"\n\nChangelog
-\nVersione 1.2.2:
-- nuova icona
-- fix minori
-\nVersione 1.2.1:
-- fix bug minori
-- aggiunta nuove acque minerali (adesso sono 360)
-\nVersione 1.2:
+"\n\nChangelog\nVersione 1.2:
 - nuova funzione Suggerisci Fonte
 - nuova funziona Scelgi Fonte
 \nVersione 1.1:
@@ -78,6 +70,5 @@
 	" 
 	</string>
 	<string name="cl2">"""<b><font color="#ff00ff"> HTML View</font></b><br/>Android.com
-	"""</string> 
-	<string name="inserisciNomeComune">Inserisci nome comune</string>	
+	"""</string>	
 </resources>

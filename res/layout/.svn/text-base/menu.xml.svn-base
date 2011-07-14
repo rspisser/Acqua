@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menuElencoFonti" 
+		android:title="@string/menuElencoFonti" />
+	<item android:id="@+id/menuSceltaFonte" 
+		android:title="@string/menuSceltaFonte" />
+	<item android:id="@+id/menuSuggerisiciFonte" 
+		android:title="@string/menuSuggerisciFonte" />
+	<item android:id="@+id/menuInfo" android:icon="@drawable/info"
+		android:title="@string/menuInfo" />
+	<item android:id="@+id/menuSettings" android:icon="@drawable/settings"
+		android:title="@string/menuSettings" />
+	<item android:id="@+id/menuContact" android:icon="@drawable/contact"
+		android:title="@string/menuContact" />
+
+	<!-- <item android:id="@+id/menuAltro" android:title="@string/menuAltro" 
+		> <menu> <item android:id="@+id/menuSalvaAttuale" android:title="@string/menuSalvaAttuale" 
+		/> </menu> </item> -->
+</menu>

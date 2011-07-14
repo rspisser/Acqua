@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/it.spisser.acqua"
+	xmlns:androidsam="http://schemas.android.com/apk/res/it.spisser.acqua"
+	android:orientation="vertical"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myapp="http://schemas.android.com/apk/res/it.spisser.acqua"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+    <TextView android:text="@string/SceltaFonteScegliComune" android:id="@+id/SceltaFonteTextView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <AutoCompleteTextView android:text="" android:id="@+id/SuggerisciFonteScegliComune" android:layout_width="fill_parent" android:layout_height="wrap_content"></AutoCompleteTextView>
+    <TextView android:visibility="gone" android:text="@string/SceltaFonteScegliComuneOppure" android:id="@+id/SceltaFonteScegliComuneOppure" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+        <Button android:visibility="gone" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/SuggerisciFonteRilevaPosizioneButton" android:text="@string/SceltaFontiRilevaPosizioneButton"></Button>
+    </LinearLayout>
+ <TextView android:text="@string/SuggerisciFonteInserisciFonte" android:id="@+id/SuggerisciFonteInserisciFonte" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_width="fill_parent" android:id="@+id/SuggerisciFonteInserisciFonteEditText" android:layout_height="wrap_content" android:text=""></EditText>
+    
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/SuggerisciFonteButton" android:text="@string/SuggerisciFonteButtonText"></Button>
+    
+    
+</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/adviewSuggerisciFonteLinearLayout" android:layout_height="wrap_content"
+		android:gravity="bottom" android:layout_alignParentBottom="true"
+		android:layout_alignBottom="@+id/home_layout">
+		</LinearLayout>
+
+</RelativeLayout><!--  -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/it.spisser.acqua"
+	xmlns:androidsam="http://schemas.android.com/apk/res/it.spisser.acqua"
+	android:orientation="vertical"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myapp="http://schemas.android.com/apk/res/it.spisser.acqua"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+    <TextView android:text="@string/SceltaFonteScegliFonte" android:id="@+id/SceltaFonteTextView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <AutoCompleteTextView android:text="" android:id="@+id/SceltaFonteScegliFonte" android:layout_width="fill_parent" android:layout_height="wrap_content"></AutoCompleteTextView>
+    <TextView android:text="@string/SceltaFonteScegliComune" android:id="@+id/SceltaFonteTextView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <AutoCompleteTextView android:text="" android:id="@+id/SceltaFonteScegliComune" android:layout_width="fill_parent" android:layout_height="wrap_content"></AutoCompleteTextView>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/SceltaFontiCalcolaDistanzaButton" android:text="@string/SceltaFonteCalcolaDistanza"></Button>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="visible" android:id="@+id/SceltaFontiRilevaPosizioneButton" android:text="@string/SceltaFontiRilevaPosizioneButton"></Button>
+        <Button android:text="@string/SceltaFonteVisualizzaMappaButton" android:visibility="gone" android:id="@+id/SceltaFonteVisualizzaMappaButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+
+    
+    <TextView android:text="Distanza" android:id="@+id/SceltaFonteDistanzaLabel" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="" android:id="@+id/SceltaFonteDistanzaTesto" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="" android:id="@+id/SceltaFonteDistanzaDistanza" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/adviewSceltaFonteLinearLayout" android:layout_height="wrap_content"
+		android:gravity="bottom" android:layout_alignParentBottom="true"
+		android:layout_alignBottom="@+id/home_layout">
+		</LinearLayout>
+
+</RelativeLayout><!--  -->
