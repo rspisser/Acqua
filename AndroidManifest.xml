@@ -1,18 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="it.spisser.android.acqua"
-      android:versionCode="1"
-      android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="7" />
+	package="it.spisser.acqua" android:versionName="1.2.2" android:versionCode="9">
+	<uses-sdk android:minSdkVersion="7" />
+	
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.Manifest.permission.ACCESS_GPS" />
 
-    <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".AcquaActivity"
-                  android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+	<application android:icon="@drawable/ic_launcher" android:label="@string/app_name"
+		android:name="it.spisser.acqua.GlobalData"
+		>
+		<uses-library android:name="com.google.android.maps" />
+		<activity android:name=".AcquaActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="SceltaFonteActivity" android:label="@string/SceltaFonteLabel">
+			<intent-filter>
+				<action android:name="it.spisser.acqua.FonteSceltaActivity" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="MappaActivity" android:label="@string/MappaActivityLabel">
+			<intent-filter>
+				<action android:name="it.spisser.acqua.MappaActivity" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="PrefsActivity" android:label="Settings">
+			<intent-filter>
+				<action android:name="it.spisser.acqua.PrefsActivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
 
-    </application>
+		</activity>
+		<activity android:name="SuggerisciFonteActivity" android:label="@string/SuggerisciFonte">
+			<intent-filter>
+				<action android:name="it.spisser.acqua.SuggerisciFonteActivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+
+		</activity>
+
+		<!-- The application's publisher ID assigned by AdMob -->
+		<meta-data android:value="a14db7ec5158eb6" android:name="ADMOB_PUBLISHER_ID" />
+
+<activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation"/>
+
+	</application>
+
 </manifest>
