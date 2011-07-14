@@ -1,0 +1,34 @@
+it.spisser.acqua.SceltaFonteActivity
+it.spisser.acqua.AcquaActivity
+it.spisser.acqua.SuggerisciFonteActivity
+it.spisser.acqua.MappaActivity
+com.google.ads.AdView
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
+com.google.ads.AdView
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy[] values()
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy valueOf(java.lang.String)
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.gson.ModifyFirstLetterNamingPolicy$LetterModifier: com.google.gson.ModifyFirstLetterNamingPolicy$LetterModifier[] values()
+com.google.gson.ModifyFirstLetterNamingPolicy$LetterModifier: com.google.gson.ModifyFirstLetterNamingPolicy$LetterModifier valueOf(java.lang.String)
+u$a: u$a[] values()
+u$a: u$a valueOf(java.lang.String)
+a$a: a$a[] values()
+a$a: a$a valueOf(java.lang.String)
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy[] values()
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+it.spisser.acqua.AcquaBaseActivity
+it.spisser.acqua.SceltaFonteActivity
+it.spisser.acqua.AcquaActivity
+it.spisser.acqua.SuggerisciFonteActivity
+com.google.ads.AdActivity
+it.spisser.acqua.MappaActivity
+it.spisser.acqua.FonteListActivity
+it.spisser.acqua.PrefsActivity
+it.spisser.acqua.GlobalData
+com.google.ads.InstallReceiver
+it.spisser.acqua.MappaActivity
+it.spisser.acqua.AcquaItemizedOverlay
