@@ -1,0 +1,2 @@
+- nella listview con l'elenco delle fonti, l'ultima o le ultime due
+ non sono selezionabili.. problema con admob o relativelayout?

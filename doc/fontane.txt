@@ -1,0 +1,22 @@
+appengine:
+- modello dati con:
+  coordinate gps della fontan
+  livello attendibilità
+  
+  
+livello attendibilità:
+- 1 inserito (grigio chiaro)
+- 2 confermato (verde chiaro chiaro) #00FF00
+- 3 confermato da più di 5 utenti (verde ) #5FB404
+- 4 confermato da più di 10 utenti (verde scuro) #0B610B
+
+
+
+funzioni android:
+1) suggerisci fontana:
+
+
+
+funzioni comuni a tutte le funzioni:
+- ricavare un identificativo unico che può essere usato per assicurarsi che una persona
+  non confermi più di un device (usare ad esempio TelephonyManager->getDeviceId) 

@@ -1,0 +1,44 @@
+debug:
+cd /cygdrive/c/Documents and Settings/rspisse
+keytool -list -keystore .android/debug.keystore
+password vuota:
+
+viene visualizzato il fingerprint:
+BF:8C:C0:87:B8:94:39:B6:D0:57:54:A9:24:B6:9F:B8
+
+andare su http://code.google.com/android/maps-api-signup.html
+
+e inserire il fingerprint
+
+
+la chiave è
+0q5OJMKdVMS38Wwi4EE0q90r5RNLy0y-9tEs6Cw
+
+<com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0q5OJMKdVMS38Wwi4EE0q90r5RNLy0y-9tEs6Cw"
+                 />
+
+
+per fare il sign del applicativo di produzione:                 
+rspisse@HMIP2370A /cygdrive/c/reinhard/workspace/spisser-ahqua
+$ keytool -list -keystore c:/eclipse-SDK-3.6.2-win32/keystore
+Immettere la password del keystore:
+
+Tipo keystore: JKS
+Provider keystore: SUN
+
+Il keystore contiene 1 entry
+
+android, 13-apr-2011, PrivateKeyEntry,
+Impronta digitale certificato (MD5): B9:1A:DB:28:EB:9F:F4:07:64:55:0C:DB:B7:F0:F2:CE
+        
+0q5OJMKdVMS2D3bXULAv_SUEnddWYrRbAkZEvOg
+
+<com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0q5OJMKdVMS2D3bXULAv_SUEnddWYrRbAkZEvOg"
+                 />
+         

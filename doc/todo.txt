@@ -1,0 +1,194 @@
+da fare:
+
+per deploy su appstore:
+- come sostituire chiave di debug con quella definitiva usando ant?
+- progress bar quando parte
+- vedere bene git
+- codifiche ean: http://gtin13.com/tag/naturale/
+- verificare come si può visualizzare il nome della versione corrente in info
+- verificare come si può visualizzare un messaggio con info su novità quando viene 
+  installato un aggiornamento
+
+
+- varie:
+  - aggiungere menu "imposta paese selezionato come default" e salvare nelle sharedPreference (vedi Professional Android 2 Development, pagina 222)
+  - visualizzare dettagli versione quando una nuova versione viene lanciata per la prima volta
+  
+ 
+- google maps:
+  1. calcolo delle distanze usando google maps
+  2. inserire un pulsante in ogni dettaglio, quanto viene premuto il pulsante si visualizza la possizione scelta, la fonte finale e la strada
+  
+  
+- suggerisci:
+  - aggiungere una nuova preferenza "suggerisci"
+  - nuova fonte: nome commerciale, coordinate (rileva posizione), sito web di riferimento
+  - al tap di un dettaglio: Suggerisci posizione attuale. inviare i dati via mail
+  
+  - 
+  
+  
+  OK====================
+
+- google maps:
+  0. posizionamento fonti:
+     quando ci sono più di una fonte con le stesse coordinate, scrivere il numero
+     delle fonti sul marker
+  0-1: ontap:
+     rendere cliccabile la fonte, quando l'utente seleziona, visualizzare
+     tutti i dettagli delle fonti
+  0-2: zoomlevel:
+      lo zoomlevel di default deve essere un raggio di 50km (per vedere
+      immediatamente le fonti verdi)
+  0-3: marker blu: 
+     scrivere il nome della località scelta (o rilevata da rileva posizione)
+     di fianco al marker blu
+
+- preferences:
+  - usa google maps:
+    se abilitato, abilitare il tasto maps, altrimenti no
+  
+
+- varie:
+  - modificare l'estrazione dei comuni sostituendo il / con ' / ' (uno spazio prima e uno dopo) in modo tale
+    che l'autocompletetextview veda anche i nomi dei comuni in tedesco
+- gestire il MultiAutoTextCompleteView con paesi in tedesco (Fortezza/Franzensfeste)
+  
+per deploy su appstore:
+- verificare come si può disabilitare il logging a livello centrale (usare proguard)?
+- comuni istat: http://www.istat.it/strumenti/definizioni/comuni/
+- ads con adsense
+- analyzer da wikipedia: (non serve?)
+  - inserire una colonna "wikipediapage" che contiene l'indirizzo della pagina wikipedia
+  - verificare quanti "nomi di comuni dal db riescono a recuperare correttamente la pagina wikipedia" e impostare la colonna relativa
+  - per gli altri eventuale gestione manuale (se non sono troppi)
+  - fare il parser per la pagina con l'aggiornamento di:
+    - coordinate
+    - cap
+    - provincia
+
+
+- dati:
+  - elenco fonti:
+    - creare tabella fontiimportate con i campi:
+      nomecommerciale
+      nomesorgente
+      paese
+      provincia
+	- dati con coordinate dei comuni: http://www.rigacci.org/wiki/doku.php/tecnica/gps_cartografia_gis/download
+	      
+    - gazzetta ufficiale comunità europea http://europa.eu/legislation_summaries/consumers/product_labelling_and_packaging/co0008_it.htm
+    - http://www.acqueitaliane.fondazioneamga.org/ricerca.htm
+    - cambio db:
+      - aggiungere website
+    - fare uno script python che dal foglio excel italia.xls:
+      - mette in maiuscoletto nome commerciale e nome fonte, sposta in una colonna a parte la provincia.
+    - secondo script python che:
+      prende le fonti, verifica il comune in comuni e scrive tutti i dati
+  - comuni
+    allineare comuni con elenco istat http://www.istat.it/strumenti/definizioni/comuni/
+    aggiungere   
+  - sistemare tutte le fonti con cap 00000
+  - fare uno script che allinea i dati da comuni a fonti (prende il nome comune)
+
+- db comuni:
+  - aggiornare comuni con db istat, con provincia corta
+  provincie dal db istat con nome corto
+
+- google maps:
+  3. inserire un pulsante "generale" che fa vedere tutti i risultati in una mappa sola, ogni fonte ha il colore verde, giallo o rosso 
+  4. quando l'utente preme "rileva posizione", visualizza nome comune nella schermata principale
+  
+  
+  = gestione location: OK
+  1. all'avvio verifica che almeno un locationprovider è abilitato
+  1.1. se è abilitato:
+  1.1.1 - sottoscrivi al listener
+  1.1.2   - visualizza pulsante "rileva posizione"
+  1.2  se non è abilitato:
+  1.2.1   - visualizza impostazioni locazione, se il risultato è true, allora vai a 3 altrimenti: 
+  1.2.2   - nascondi pulsante "rileva posizione"
+  1.2.3   - non sottoscrive al listener
+  2 quando viene premuto il tasto "rileva posizione":
+  2.1  se almeno un locationprovider è ablitato:
+  2.1.1   - sottoscrivi al listener
+  2.1.2   - visualizza risultati
+  2.2  se nessun locationprovider è abilitato:
+  2.2.1   - visualizza impostazioni, se il risultato è true, allora vai a 3 altrimenti:
+  2.2.2 visualizza un messaggio che non si può visualizzare alcun dato poiché il locationprovider è disabilitato
+  3 visualizzazione
+      
+
+= impostazioni: ok
+  1. location di default:
+     scegli una location di default che viene visualizzato quando parte l'applicativo
+  2. usa google maps per calcolo distanze
+
+= menu: ok
+  - informazioni:
+  - impostazioni: 
+  - contatta lo sviluppatore
+  tramite mail può contattare lo sviluppatore
+  
+  
+  
+  
+  
+  
+  
+  ====================
+blog:
+- creare/modificare tema
+- step 1: intro
+- step 2: installazione ambienti:
+  - jdk 1.6
+  - eclipse helios
+  - android sdk
+  - adt
+- step 3: configurazione ambienti
+  - configurazione adt
+  - configurazione driver usb
+  - configurazione devices
+- step 4: applicativo: new android project
+  - che cosa deve fare:
+    - scelta comune origine
+    - calcolo del elenco delle fonti nel raggio di 100km
+    - recupero dati fonti
+    - ordinamento fonti per distanza
+    - visualizzazione risultato
+  - componenti:
+    - interfaccia utente
+    - database
+    - menu
+- step 4.1: console e logcat
+- step 5: l'interfaccia utente
+- step 5.1: activity e l'evento
+- step 5.2: le risorse
+- step 6: la base dati 1
+  creazione e import comuni
+  onCreate
+  on Update
+  
+- step 7: la base dati 2
+  creazione e import fonti
+- step 8: la base dati 3
+  datahelper
+- step 9: la base dati 4
+  beans
+- step 10: visualizzazione del risultato
+- step 11 logging
+- step 12: icona
+- step 13: il menu info
+- step 14: rilevamento posisizone
+- step 15: git
+- step 16: scelta fonte e calcolo distanza  
+
+nota:
+- 
+  
+
+  <!--     <item android:id="@+id/menuScegliFonte"
+          android:title="@string/menuScegliFonte" />
+    <item android:id="@+id/menuElencoFonti"
+          android:title="@string/menuElencoFonti" />
+ -->
