@@ -72,7 +72,7 @@ public class SuggerisciFonteActivity extends AcquaBaseActivity {
 		rilevaPosizioneButton.setOnClickListener(new Button.OnClickListener() {
 			public void onClick(View arg0) {
 
-				GlobalData gd = (GlobalData) getApplication();
+				Acqua gd = (Acqua) getApplication();
 				nomeFonte.setText("");
 				currentComune = getComuneFromLocation(gd.getCurrent_latitude(),
 						gd.getCurrent_longitude());

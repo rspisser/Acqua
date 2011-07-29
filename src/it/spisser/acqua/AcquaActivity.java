@@ -81,7 +81,7 @@ public class AcquaActivity extends AcquaBaseActivity {
 		if ((fonti.size() > 0) && (useGoogleMaps == true)) {
 			Button MappaButton = (Button) findViewById(R.id.ElencoFontiMappaButton);
 			MappaButton.setVisibility(View.VISIBLE);
-			GlobalData gd = (GlobalData) this.getApplication();
+			Acqua gd = (Acqua) this.getApplication();
 			gd.setListaFonti(fonti);
 			// this.fontiList=fonti;
 		}
@@ -188,7 +188,7 @@ public class AcquaActivity extends AcquaBaseActivity {
 				Comune comuneDett = new Comune();
 				comuneDett = dh
 						.getComuneByName(comuniView.getText().toString());
-				GlobalData gd = (GlobalData) getApplication();
+				Acqua gd = (Acqua) getApplication();
 
 				gd.setComuneCorrente(comuneDett);
 				try {
@@ -279,7 +279,7 @@ public class AcquaActivity extends AcquaBaseActivity {
 
 				// preso da
 				// http://stackoverflow.com/questions/1608632/android-locationmanager-getlastknownlocation-returns-null
-				GlobalData gd = (GlobalData) getApplication();
+				Acqua gd = (Acqua) getApplication();
 
 				if (currentLocation == null) {
 					Toast.makeText(getApplicationContext(),
@@ -294,7 +294,7 @@ public class AcquaActivity extends AcquaBaseActivity {
 				Comune c = getComuneFromLocation(current_latitude,
 						current_longitude);
 
-				GlobalData gdata = (GlobalData) getApplication();
+				Acqua gdata = (Acqua) getApplication();
 
 				Log.d(TAG, "latitudine display" + c.getLatitudine_display());
 				lat_gradi_dec.setText(Double.toString(c.getLatitudine_display()));

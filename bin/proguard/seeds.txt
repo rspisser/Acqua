@@ -28,7 +28,7 @@ com.google.ads.AdActivity
 it.spisser.acqua.MappaActivity
 it.spisser.acqua.FonteListActivity
 it.spisser.acqua.PrefsActivity
-it.spisser.acqua.GlobalData
+it.spisser.acqua.Acqua
 com.google.ads.InstallReceiver
 it.spisser.acqua.MappaActivity
 it.spisser.acqua.AcquaItemizedOverlay

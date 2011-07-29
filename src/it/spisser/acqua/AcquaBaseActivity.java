@@ -241,7 +241,7 @@ public class AcquaBaseActivity extends Activity {
 
 			public void onLocationChanged(Location location) {
 				currentLocation = location;
-				GlobalData gd = (GlobalData) getApplication();
+				Acqua gd = (Acqua) getApplication();
 				gd.setCurrent_latitude(location.getLatitude());
 				gd.setCurrent_longitude(location.getLongitude());
 				if (location.getAccuracy() > 1000 && location.hasAccuracy())

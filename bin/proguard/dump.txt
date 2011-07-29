@@ -23238,7 +23238,7 @@ _____________________________________________________________________
   Major version: 0x31
   Minor version: 0x0
   Access flags:  0x21
-    = public class it.spisser.acqua.GlobalData extends android.app.Application
+    = public class it.spisser.acqua.Acqua extends android.app.Application
 
 Interfaces (count = 0):
 

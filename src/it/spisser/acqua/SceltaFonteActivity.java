@@ -55,7 +55,7 @@ public class SceltaFonteActivity extends AcquaBaseActivity {
 					+ comune.getNomecomune() + " (" + comune.getProvincia()
 					+ "):";
 			testo.setText(t);
-			GlobalData gd = (GlobalData) getApplication();
+			Acqua gd = (Acqua) getApplication();
 			gd.setComuneCorrente(comune);
 
 			List<Fonte> listaFonti = new ArrayList<Fonte>();
@@ -179,7 +179,7 @@ public class SceltaFonteActivity extends AcquaBaseActivity {
 				if (useGoogleMaps == true) {
 					Button MappaButton = (Button) findViewById(R.id.SceltaFonteVisualizzaMappaButton);
 					MappaButton.setVisibility(View.VISIBLE);
-					GlobalData gd = (GlobalData) getApplication();
+					Acqua gd = (Acqua) getApplication();
 					gd.setComuneCorrente(comune);
 					Log.d(TAG, "fonteSelezionata" + fonteSelezionata.toString());
 
@@ -194,7 +194,7 @@ public class SceltaFonteActivity extends AcquaBaseActivity {
 			public void onClick(View arg0) {
 				comuniView.setText("");
 				
-				GlobalData gd = (GlobalData) getApplication();
+				Acqua gd = (Acqua) getApplication();
 				Double latitudine;
 				Double longitudine;
 				Comune comune = getComuneFromLocation(gd.getCurrent_latitude(),

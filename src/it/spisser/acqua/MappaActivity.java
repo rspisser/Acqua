@@ -77,7 +77,7 @@ public class MappaActivity extends MapActivity {
 
 			mapController = mapView.getController();
 			mapController.setZoom(10); // Zoom 1 is world-wide
-			GlobalData gd = (GlobalData) getApplication();
+			Acqua gd = (Acqua) getApplication();
 			Comune cc = gd.getComuneCorrente();
 
 			List<Overlay> overlays = mapView.getOverlays();
